@@ -1,0 +1,31 @@
+
+header{
+	text-align: right;
+	}
+
+#logo{
+	display: block;
+	margin: auto;
+	height: 92px;
+	width: 272px;
+	}
+	
+.vcntr{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	//height: 100%; ???
+}
+.footer-l{
+	display: flex;
+	position: fixed;
+	left: 25px;
+	bottom: 11px;
+}
+.footer-r{
+	display: flex;
+	position: fixed;
+	right: 25px;
+	bottom: 11px;
+}
+
